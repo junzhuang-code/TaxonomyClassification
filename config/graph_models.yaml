@@ -1,0 +1,9 @@
+# The config file for the model
+train_model:  # train the model
+    data_id: '1'  # 02/1/2
+    data_name: sv_cograph0  # sv_textgraph/sv_cograph0-11
+    model_name: GCN
+    NOISE_RATIO: 0.0
+    NUM_EPOCHS: 500
+    is_trainable: True
+    GPU: -1  # 0/1

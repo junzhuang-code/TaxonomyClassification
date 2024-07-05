@@ -1,0 +1,9 @@
+# The config file for the model
+train_model:  # train the model
+    data_file_name: llm_survey1.txt  # llm_survey{1, 2, 02}.txt
+    model_name: DistilBERT  # BERT/RoBERTa/DistilBERT/XLNet/Electra/Albert/BART/DeBERTa/Llama2
+    access_token: Put_your_token_here
+    NUM_EPOCHS: 30
+    BATCH_SIZE: 16
+    device: cpu  # cpu/cuda/mps
+    GPU: -1  # 0/1
